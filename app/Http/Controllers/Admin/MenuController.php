@@ -14,6 +14,7 @@ class MenuController extends Controller
     public function __construct(MenuService $menuService)
 {
         $this->menuService = $menuService;
+        //aaaaabb
 }
     public function create (){
         return view('admin.menu.add',[
